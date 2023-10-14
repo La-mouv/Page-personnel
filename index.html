@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Blog Personnel</title>
+    <!-- Bonus: Lien vers une feuille de style externe (vous devriez créer ce fichier séparément) -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+
+<!-- En-tête du blog -->
+<header>
+    <h1>Mon Blog Personnel</h1>
+    <nav>
+        <a href="#home">Accueil</a> |
+        <a href="#about">À propos</a> |
+        <a href="#contact">Contactez-moi</a>
+    </nav>
+</header>
+
+<!-- Article principal -->
+<article>
+    <h2>Titre de l'Article Principal</h2>
+    <p>Ceci est un paragraphe d'introduction pour mon article.</p>
+    <img src="chemin_vers_image.jpg" alt="Description de l'image">
+    <p>Contenu de l'article...</p>
+    <!-- Vous pouvez ajouter d'autres paragraphes, sous-titres, listes, etc. -->
+</article>
+
+<!-- Liens connexes -->
+<aside>
+    <h3>Articles Connexes</h3>
+    <ul>
+        <li><a href="#">Lien vers un autre article</a></li>
+        <li><a href="#">Un autre lien intéressant</a></li>
+        <!-- Ajoutez d'autres liens au besoin -->
+    </ul>
+</aside>
+
+<!-- Formulaire de contact -->
+<section id="contact">
+    <h2>Contactez-moi</h2>
+    <form action="#" method="post"> <!-- 'action' devrait être l'URL du serveur traitant le formulaire, mais nous la laissons vide pour cet exemple -->
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        
+        <input type="submit" value="Envoyer">
+    </form>
+</section>
+
+<!-- Pied de page -->
+<footer>
+    <p>&copy; 2023 Mon Nom. Tous droits réservés.</p>
+    <!-- Ajoutez des liens vers vos profils de médias sociaux, si vous le souhaitez -->
+</footer>
+
+</body>
+</html>
